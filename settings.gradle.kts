@@ -27,7 +27,7 @@ pluginManagement {
   }
 }
 
-rootProject.name = "cloudnet-root"
+rootProject.name = "CloudKnow-root"
 
 // top level projects
 include("bom", "ext", "common", "driver", "node", "wrapper-jvm", "launcher", "modules", "plugins")
