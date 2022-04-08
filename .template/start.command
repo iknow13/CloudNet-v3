@@ -5,6 +5,6 @@ cd "$(dirname "$0")" || exit 1
 if [ -x "$(command -v java)" ]; then
   java -Xms256M -Xmx256M -XX:+UseZGC -XX:+PerfDisableSharedMem -XX:+DisableExplicitGC -jar launcher.jar
 else
-  echo "No valid java installation was found, please install java in order to run CloudNet"
+  echo "No valid java installation was found, please install java in order to run KnowCloud"
   exit 1
 fi

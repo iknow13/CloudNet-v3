@@ -118,13 +118,13 @@ public final class CloudNetLauncher {
         System.err.println("╔═══════════════════════════════════════════════════════════════════╗");
         System.err.println("║                              WARNING                              ║");
         System.err.println("║                                                                   ║");
-        System.err.println("║    It looks like CloudNet is running as an administrative user!   ║");
+        System.err.println("║    It looks like KnowCloud is running as an administrative user!   ║");
         System.err.println("║      This is not recommended as it allows attackers to f. ex.     ║");
         System.err.println("║              easily delete files on your system!                  ║");
         System.err.println("║                                                                   ║");
         System.err.println("║ More info: https://madelinemiller.dev/blog/root-minecraft-server/ ║");
         System.err.println("║                                                                   ║");
-        System.err.println("║                 CloudNet will start in 5 seconds!                 ║");
+        System.err.println("║                 KnowCloud will start in 5 seconds!                 ║");
         System.err.println("║                                                                   ║");
         System.err.println("╚═══════════════════════════════════════════════════════════════════╝");
         // wait 5 seconds

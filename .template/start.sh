@@ -10,10 +10,10 @@ if [ -x "$(command -v java)" ]; then
   elif [ -x "$(command -v tmux)" ]; then
     tmux new-session -As CloudNet java -Xms256M -Xmx256M -XX:+UseZGC -XX:+PerfDisableSharedMem -XX:+DisableExplicitGC -jar launcher.jar
   else
-    echo "No screen or tmux installation found, you need to install at least one of them to run CloudNet"
+    echo "No screen or tmux installation found, you need to install at least one of them to run KnowCloud"
     exit 1
   fi
 else
-  echo "No valid java installation was found, please install java in order to run CloudNet"
+  echo "No valid java installation was found, please install java in order to run KnowCloud"
   exit 1
 fi
